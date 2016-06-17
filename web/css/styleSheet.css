@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+/************* #globalNav styles **************/
+
+/************* #message styles **************/
+.pageTitleMsg {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.errMsg {
+	color: red;
+	font-size: 10pt;
+	font-weight: bold;
+}
+/************* #table styles **************/
+
+/************* #control styles **************/
+.time-line {
+	word-wrap: break-word;
+}
+.comment-form {
+	font-size: 9px;
+}
+.hidden {
+	display: none;
+}
+form img.thumb {
+	margin: 0 5px 5px 0;
+	max-width: 160px;
+	vertical-align: bottom;
+}
+form .upload label {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	vertical-align: middle;
+}
+form .upload label input[type="file"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	font-size: 100px;
+	opacity: 0.01;
+	-ms-filter: "alpha(opacity=1)";
+}
+form .upload label input[type="file"]:hover+.button {
+
+}
+form .upload .alt {
+	padding: 4px;
+	border: 1px solid #999;
+	vertical-align: middle;
+}
+.comment-row {
+	border-bottom: 0px solid #afafaf;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+.bottom-0 {
+	padding-bottom: 0px;
+}
+.link {
+	cursor: pointer;
+}
+
+

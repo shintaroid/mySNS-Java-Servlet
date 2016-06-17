@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+label {
+  color: white;
+  background-color: gray;
+  padding: 6px;
+  border-radius: 12px;
+}
+
+.objectopen {
+	margin: 0 auto;
+}
+.bodytop {
+	padding: 10px;
+	background: #d49fc2;
+}
+.bodybtm {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	display: none;
+}
+.bodybtm p,
+.bodybtm span {
+	padding: 10px;
+}
+.bodytop .button,
+.bodybtm .button2 {
+	cursor: pointer;
+	color: #4776AF;
+}
+.contents {
+	margin: 10px auto 40px auto;
+	padding: 10px;
+	background: #9fb7d4;
+}
+.favorite-toggle{
+	background-color:red;
+}

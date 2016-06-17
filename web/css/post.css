@@ -1,0 +1,26 @@
+/*modalの拡大画像の幅*/
+.modal-body img {
+	width: 100%;
+	height: 100%;
+}
+
+/*modalのクローズアイコン*/
+i.close {
+	font-size: 24px;
+	opacity: 1;
+	color: #777;
+}
+
+i.close:hover {
+	color: #aaa;
+}
+
+/*モーダル非表示*/
+.hidden {
+	display: none;
+}
+
+/* アイコンサイズ */
+#collapse_icon {
+	font-size: 36px;
+}
